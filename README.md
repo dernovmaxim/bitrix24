@@ -7,5 +7,7 @@ Batch.php - класс для выполнения пакетных запрос
 Остальные классы - классы для вызовов методов для работы с API Битрикс24
 
 Пример работы - получение списка контактов:
+
 $contact = new Contact($domain, $webhook, true);
+
 $contactList = $contact->contactList($fields);
